@@ -1,0 +1,23 @@
+dev:
+  eureka:
+    server:
+      port: 8080
+    hostname: 127.0.0.1
+
+# 公共配置
+spring:
+  profiles:
+    active: dev
+  application:
+    name: web-cache
+
+
+
+
+info:
+  artifact: web-cache
+  name: '@project.name@'
+  description: '@project.description@'
+  version: '@project.version@'
+  spring-boot-version: '@spring.boot.version@'
+  spring-cloud-version: '@spring.cloud.version@'
