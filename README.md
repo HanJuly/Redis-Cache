@@ -79,6 +79,10 @@
 
 2.CacheResponseWrapper extends HttpServletResponseWrapper 用于从response中获取请求的结果
 
+
+
+
+
 ```
 public class CacheResponseWrapper extends HttpServletResponseWrapper {
     private CharArrayWriter bufferd;
